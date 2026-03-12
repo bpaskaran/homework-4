@@ -70,7 +70,7 @@ int encryptCaesar(const char *plaintext, char *ciphertext, int key){
 }
 
 
-/* decrypt */
+
 
 int decryptCaesar(const char *ciphertext, char *plaintext, int key){
 
