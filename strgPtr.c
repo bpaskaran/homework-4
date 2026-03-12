@@ -18,7 +18,6 @@ static int isDigit(char c){
 }
 
 
-/* strgLen */
 
 int strgLen(const char *s){
 
@@ -89,8 +88,6 @@ void strgChangeCase(char *s){
 }
 
 
-/* strgDiff */
-
 int strgDiff(const char *s1, const char *s2){
 
     if(s1 == NULL || s2 == NULL)
@@ -112,8 +109,6 @@ int strgDiff(const char *s1, const char *s2){
     return i;
 }
 
-
-/* strgInterleave */
 
 void strgInterleave(const char *s1, const char *s2, char *d, size_t size){
 
